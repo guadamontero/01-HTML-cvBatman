@@ -1,0 +1,25 @@
+/*------MAIN------*/
+
+main {
+  max-width: 1041px;
+  margin: 50px auto; 
+  .section {
+    &-container {
+      padding-left: 20px;
+      background-color: $color-primario;
+      .section-h2 {
+        color: $color-secundario;
+        letter-spacing: $padding-elementos;
+      }
+    }
+    &-listas {
+      padding: 30px;
+      li {
+        padding-top: 5px;
+      }
+      dl {
+        padding-top: 15px;
+      }
+    }
+  }
+}

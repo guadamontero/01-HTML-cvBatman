@@ -1,0 +1,11 @@
+/*-----FOOTER-----*/
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: $padding-elementos;
+  padding: $padding-elementos;
+  background-color: $color-secundario;
+  color: #fff;
+}

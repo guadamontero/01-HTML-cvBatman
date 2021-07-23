@@ -1,0 +1,15 @@
+/*------HEADER------*/
+
+header {
+  text-align: center;
+  .header-logo {
+    padding: $padding-elementos;
+    background-color: #E5E5E5;
+  }
+  h1 {
+    padding:10px;
+    background-color: $color-primario;
+    color: $color-secundario;
+    letter-spacing: $padding-elementos;
+  }
+} 

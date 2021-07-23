@@ -1,0 +1,60 @@
+
+*{
+  margin: 0px;
+}
+
+header{
+  text-align: center;
+}
+
+.header-logo {
+  padding: 10px;
+  background-color: #E5E5E5;
+}
+
+.header-h1 {
+  padding:10px;
+  background-color:#C4C4C4;
+  color: #005677;
+  letter-spacing: 10px;
+}
+
+main {
+  max-width: 1041px;
+  margin: 50px auto; 
+}
+
+.div-h2 {
+  padding-left: 20px;
+  background-color: #C4C4C4;
+}
+
+.section-h2 {
+  color: #005677;
+  letter-spacing: 10px;
+}
+
+.div-listas {
+  padding: 30px;
+}
+
+.div-listas li {
+  padding-top: 5px;
+}
+
+.div-listas dl {
+  padding-top: 15px;
+}
+
+footer {
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+  background-color: #005677;
+  color: white;
+}
+
+footer div{
+  display: inline-block;
+  padding: 10px;
+}

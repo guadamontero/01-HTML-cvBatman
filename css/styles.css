@@ -1,59 +1,77 @@
-*{
-  margin: 0px;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-header{
+ul, ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*------HEADER------*/
+header {
   text-align: center;
 }
 
-.header-logo {
+header .header-logo {
   padding: 10px;
   background-color: #E5E5E5;
 }
 
-.header-h1 {
-  padding:10px;
-  background-color:#C4C4C4;
+header h1 {
+  padding: 10px;
+  background-color: #C4C4C4;
   color: #005677;
   letter-spacing: 10px;
 }
 
+/*------MAIN------*/
 main {
   max-width: 1041px;
-  margin: 50px auto; 
+  margin: 50px auto;
 }
 
-.div-h2 {
+main .section-container {
   padding-left: 20px;
   background-color: #C4C4C4;
 }
 
-.section-h2 {
+main .section-container .section-h2 {
   color: #005677;
   letter-spacing: 10px;
 }
 
-.div-listas {
+main .section-listas {
   padding: 30px;
 }
 
-.div-listas li {
+main .section-listas li {
   padding-top: 5px;
 }
 
-.div-listas dl {
+main .section-listas dl {
   padding-top: 15px;
 }
 
+/*-----FOOTER-----*/
 footer {
-  font-size: 20px;
-  padding: 5px;
-  text-align: center;
-  background-color: #005677;
-  color: white;
-}
-
-footer div{
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
   padding: 10px;
+  background-color: #005677;
+  color: #fff;
 }
+/*# sourceMappingURL=styles.css.map */
