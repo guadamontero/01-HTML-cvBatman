@@ -2,5 +2,5 @@
 
 ## Lenguajes utilizados: HTML y CSS
 
-https://guadamontero.github.io/P1HTML/
+https://guadamontero.github.io/P1-HTML/
 
