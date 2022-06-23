@@ -2,4 +2,4 @@
 
 ## Lenguajes utilizados: HTML y CSS
 
-https://guadamontero.github.io/01-HTML-cvBatman/
+https://guadamontero.github.io/HTML-cvBatman/
